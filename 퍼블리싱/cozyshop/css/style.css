@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-/** 공통 */
+/* 공통 */
 * {
 	box-sizing:border-box;
 	color: #000000;
@@ -30,7 +30,7 @@ ul {
 	margin: 0 auto;
 }
 
-/** 사이트 상단 메뉴 */
+/* 사이트 상단 메뉴 */
 .site_top {
 	height: 30px;
 	background-color: #f9f9f9;
@@ -98,7 +98,7 @@ ul {
 	vertical-align: top;
 }
 
-.logo_search .icon_menu a:nth-child(1)img {
+.logo_search .icon_menu a:nth-child(1) img {
 	height: 62px;
 	position: relative;
 	top: 3px;
